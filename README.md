@@ -17,8 +17,8 @@ Dupla:
 - **[3 - Algoritmo de detecção de deadlock](./detector/Detector.java)**
   - Implementação em Java de um algoritmo de detecção de impasse (Deadlock).
 
-- **[4 - Algoritmo do Avestruz](./avestruz/Avestruz.java)**
+- **[4 - Algoritmo do Avestruz](./avestruz/OstrichAlgorithm.java)**
   - Implementação em Java do algoritmo do avestruz.
 
-- **[5 - Algoritmo do Banqueiro](./banqueiro/Banqueiro.java)**
+- **[5 - Algoritmo do Banqueiro](./banqueiro/BankerAlgorithm.java)**
   - Implementação em Java do algoritmo do banqueiro.
