@@ -37,7 +37,7 @@ public class DeadlockFix {
         try {
             Thread.sleep(50);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            System.out.println("Exceçõa de Interrupção: " + e);
         }
 
         processo2.start();
@@ -50,7 +50,7 @@ public class DeadlockFix {
             processo3.join();
             processo4.join();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            System.out.println("Exceçõa de Interrupção: " + e);
         }
 
         // Mensagem final indicando que todos os processos foram executados
@@ -97,7 +97,7 @@ public class DeadlockFix {
                 try {
                     Thread.sleep(200);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    System.out.println("Exceçõa de Interrupção: " + e);
                 }
                 System.out.println(processName + " tentando adquirir " + getResourceName(lock2) + "...");
                 // Adquire o segundo lock
