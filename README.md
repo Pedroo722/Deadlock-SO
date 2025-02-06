@@ -6,7 +6,7 @@ Dupla:
 - Pedro Henrique Alexandre da Rocha
 - Vinicius Cavalcante Pequeno
 
-# Algortimos
+# Algoritmos
 
 - **[1 - Simular uma situação de deadlock](./deadlock/Deadlock.java)**
   - Simula uma situação de deadlock onde quatro processos competem por dois recursos, resultaod em um impasse (Deadlock).
